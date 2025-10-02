@@ -83,3 +83,13 @@ def process_location_data(test_instance=None):
             
 
         return locations, num_nodes, parcel_weight, delta_T, delta_D
+
+
+
+### Using 
+l,n, p, T, D = process_location_data("Ulsan/9/20250819T150214242836")
+print("locations: ", l)
+print("number of node: ", n)
+print("parcel weight: ", p)
+print("Truck travel matrix: ", T)
+print("Drone travel matrix: ", D)

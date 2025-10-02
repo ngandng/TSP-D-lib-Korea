@@ -20,12 +20,14 @@ Currently, two cities are available:
 
 Each city folder follows this structure (followed followed the structure of [mFSTSP](https://github.com/optimatorlab/mFSTSP)):
 
+```
 CityName/
 └── num_nodes/
-└── instance_name/
-├── map.html
-├── tbl_locations.csv
-└── tbl_truck_travel_data-PG.csv
+|   └── instance_name/
+|   |   ├── map.html
+|   |   ├── tbl_locations.csv
+|   |   └── tbl_truck_travel_data-PG.csv
+```
 
 ### File Descriptions
 
